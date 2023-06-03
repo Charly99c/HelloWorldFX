@@ -1,0 +1,170 @@
+#mainPanel{
+     -fx-background-color: red;
+     -fx-spacing: 0px;
+}
+#header {
+     -fx-pref-width: 400;
+     -fx-pref-height: 100;
+     -fx-background-color: #3e4756;
+     -fx-border-width: 0px;
+}
+#divider {
+    -fx-pref-width: 400;
+    -fx-pref-height: 20;
+    -fx-background-color:#dedede;
+    -fx-border-width: 0px;
+}
+#main {
+     -fx-pref-width: 400;
+     -fx-pref-height: 480;
+     -fx-background-color: #3e4756;
+     -fx-border-width: 0px;
+}
+.headerButton {
+     -fx-pref-width: 100;
+     -fx-pref-height: 100;
+     -fx-background-color: #3E4756;
+     -fx-border-width: 0px;
+}
+#btnSettings {
+     -fx-background-image: url(../Images/gear-50.png);
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+}
+#btnUser {
+     -fx-background-image: url(../Images/user-50.png);
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+}
+#btnTrophy {
+     -fx-background-image: url(../Images/trophy-50.png);
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+}
+#btnPower {
+     -fx-background-image: url(../Images/shutdown-50.png);
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+  }
+#touchPanel{
+     -fx-pref-width: 400;
+     -fx-pref-height: 120;
+     -fx-background-color: #3E4756;
+}
+#leftTouchPanel{
+     -fx-pref-width: 200;
+     -fx-padding: 23;
+     -fx-alignment: center-left;
+}
+#rightTouchPanel {
+     -fx-pref-width: 200;
+     -fx-padding: 10;
+     -fx-alignment: center;
+}
+#lblTouchTiltle {
+     -fx-font-family: roboto;
+     -fx-font-weight: bold;
+     -fx-text-fill: #DEDEDE;
+     -fx-font-size: 16px;
+}
+#txtTouchText{
+     -fx-font-family: roboto;
+     -fx-font-weight: 600;
+     -fx-fill: #DEDEDE;
+     -fx-font-size: 12px;
+}
+#btnToggle {
+     -fx-background-image: url(../Images/toggle-50.png);
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+     -fx-pref-width: 70;
+     -fx-pref-height: 30;
+     -fx-background-color: #3e4756;
+}
+#lblToggle{
+      -fx-font-family: roboto;
+      -fx-font-weight: bold;
+      -fx-text-fill: #D7EE7C;
+      -fx-font-size: 16px;
+}
+#autoPanel{
+     -fx-pref-width: 400;
+     -fx-pref-height: 120;
+     -fx-background-color: #3E4756;
+}
+#leftAutoPanel{
+     -fx-pref-width: 200;
+     -fx-padding: 23;
+     -fx-alignment: center-left;
+}
+#rightAutoPanel{
+     -fx-pref-width: 200;
+     -fx-padding: 10;
+     -fx-alignment: center;
+}
+#lblAutoTiltle {
+     -fx-font-family: roboto;
+     -fx-font-weight: bold;
+     -fx-text-fill: #DEDEDE;
+     -fx-font-size: 16px;
+}
+#txtAutoText{
+     -fx-font-family: roboto;
+     -fx-font-weight: 600;
+     -fx-fill: #DEDEDE;
+     -fx-font-size: 12px;
+}
+#btnToggleA {
+     -fx-background-image: url(../Images/toggle-50.png);
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+     -fx-pref-width: 70;
+     -fx-pref-height: 30;
+     -fx-background-color: #3e4756;
+}
+#lblToggleA{
+      -fx-font-family: roboto;
+      -fx-font-weight: bold;
+      -fx-text-fill: #D7EE7C;
+      -fx-font-size: 16px;
+}
+#line,#line2{
+      -fx-stroke:rgb(159,157,157);
+      -fx-stroke-width:2px;
+}
+#screenPanel{
+     -fx-pref-width: 400;
+     -fx-pref-height: 100;
+     -fx-background-color: #3E4756;
+}
+#lblScreenTitle{
+     -fx-font-family: roboto;
+     -fx-font-weight: bold;
+     -fx-padding: 21;
+     -fx-text-fill: #DEDEDE;
+     -fx-font-size: 16px;
+}
+#gouge{
+      -fx-background-image: url(../Images/gauge.png);
+      -fx-background-repeat: no-repeat;
+      -fx-background-position: center;
+      -fx-max-width:400px;
+      -fx-min-height:50px;
+}
+#btnSaveCancel{
+     -fx-pref-width: 200;
+     -fx-alignment: center;
+     -fx-max-width:400px;
+     -fx-min-height:100px;
+}
+#save,#cancel{
+     -fx-alignment: center;
+}
+#btnSave,#btnCancel{
+     -fx-font-family: roboto;
+     -fx-font-weight: bold;
+     -fx-text-fill: #000000;
+     -fx-font-size: 12px;
+     -fx-alignment: center;
+}
+
